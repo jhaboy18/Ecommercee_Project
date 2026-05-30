@@ -27,7 +27,7 @@ transition: Bounce,
 console.log(Products)
   useEffect(() => {
     setProducts(items);
-  }, []); // 🔥 important
+  }, []); //
 
   return (
     <Datacontext.Provider value={{ Cart, setCart, Products, setProducts,addTocart }}>
